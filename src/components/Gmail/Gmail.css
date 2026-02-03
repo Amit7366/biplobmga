@@ -1,0 +1,120 @@
+.gmail-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.email-box {
+  padding: 55px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.email-box img {
+  width: 90px;
+  margin: 7px 0;
+}
+.email-box a {
+  font-weight: 500;
+}
+.email-box h5 {
+  font-size: 24px;
+}
+.input-box {
+  text-align: left;
+}
+.input-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.next-btn {
+  border: none;
+  outline: none;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 22px;
+}
+.menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  color: gray;
+  margin-top: 10px;
+}
+.menus {
+  display: flex;
+  gap: 6px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  color: #999;
+  background-color: #ffffff;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+input:focus + label,
+input:valid + label {
+  top: -12px;
+  color: #007bff;
+}
+
+
+.email-shower{
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: fit-content;
+  margin:5px auto 35px auto;
+  font-size: 13px;
+  font-weight: 700;
+}
+.bluredtext{
+  visibility: hidden;
+}
+.checks{
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  align-items: center;
+}
+.checks .passcheck{
+  display: block;
+  width: 20px;
+  margin: 0;
+}
+.checks p{
+  display: block;
+  margin: 0;
+}
+.nxt-stp{
+  color: tomato;
+  font-size: 16px !important;
+}
+.img404{
+  width: 100%;
+}

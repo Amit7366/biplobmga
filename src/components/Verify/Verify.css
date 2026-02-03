@@ -1,0 +1,126 @@
+body {
+    background-color: #fbfef9;
+}
+li{
+    list-style-type: none;
+}
+.form-control{
+    line-height: 0.1;
+}
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+.logincopy{
+    color: #b7a690;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+a.starthere:visited {
+    color: #fff;
+}
+a.starthere {
+    display: block;
+    width: 90%;
+    color: #fff;
+    background-color: #0492ff;
+    margin: auto;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 3px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 245px;
+}
+.loginlabel {
+    margin-top: 7px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #B7A690;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-weight: 400;
+    color: rgb(195, 195, 195);
+    font-size: 18px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-weight: 600;
+    color: rgb(195, 195, 195);
+    line-height: 1.1;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-weight: 600;
+    color: rgb(195, 195, 195);
+    line-height: 1.1;
+}
+.bordered {
+    border: 2px solid #888888;
+}
+.btn,button:disabled{
+    display: block;
+    margin: auto auto 10px auto;
+    width: 114px;
+    height: 45px;
+    border: 0;
+    background: #feb161 !important;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.fpass{
+    color: #0000EE;
+}
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+.pager li,.pager li a{
+    display: inline;
+    font-size: 12px;
+    color: #046aaf;
+}
+.buglink{
+    text-align: center;
+    color: #f00;
+    margin: -1em 0 2em;
+}
+.buglink a {
+    color: #f00 !important;
+}
+.bottom p{
+    font-size: 12px;
+    line-height: 10px;
+    color: #046aaf;
+}
+.nw-dv{
+    background-color: #F8F3D3;
+    color: #C0BB9B;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+::placeholder {
+    color: #888;
+    font-size: 16px;
+
+}
+
+@media screen and(max-width: 600px) {
+    .main_img {
+        width: 47% !important;
+    }
+}
+

@@ -1,0 +1,89 @@
+.call-screen {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #b79474 0%,
+    #8b7463 50%,
+    #2f2f2f 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.top-icon {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.caller-info {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.country {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.number {
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.action svg {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.call-buttons {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 20px;
+}
+
+.call-buttons button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-buttons svg {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.decline {
+  background: #ff3b30;
+}
+
+.accept {
+  background: #34c759;
+}

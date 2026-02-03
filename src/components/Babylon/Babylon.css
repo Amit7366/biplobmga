@@ -1,0 +1,74 @@
+.b_main_container{
+    max-width: 600px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.b_header_img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.homesearch {
+    position: absolute;
+    width: 70%;
+    right: 1%;
+    bottom: 10px;
+}
+.b_input{
+    padding: 5px 0;
+    width: 70%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0 0 5px 13px;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: inset -1px 2px 12px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px 2px 12px 3px rgba(0,0,0,0.75);
+box-shadow: inset -1px 2px 12px 3px rgba(0,0,0,0.75);
+    /* background: url('/searchbg.png') no-repeat; */
+}
+.b_form_btn{
+    background-color: #2756EE;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-left: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.fpreviews {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+.b_link{
+    color: #ff6600;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    width: 100%;
+    display: block;
+}
+.b_rvw{
+    color: #993366;
+}
+.b_link_dlt{
+    color: red;
+}
+.login_subhead{
+    text-align: center;
+}
+.b_one {
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+.b_two {
+    font-weight: 700;
+    font-size: 22px;
+    color: #2756EE;
+}

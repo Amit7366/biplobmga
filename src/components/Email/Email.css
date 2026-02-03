@@ -1,0 +1,224 @@
+body {
+  background-color: #fbfef9;
+}
+li {
+  list-style-type: none;
+}
+.form-control {
+  line-height: 0.1;
+}
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+.main_img {
+  width: 71%;
+  margin-top: 25px;
+  margin: 0 auto;
+}
+.logincopy {
+  color: #b7a690;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+a.starthere:visited {
+  color: #fff;
+}
+a.starthere {
+  display: block;
+  width: 90%;
+  color: #fff;
+  background-color: #0492ff;
+  margin: auto;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 3px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  max-width: 245px;
+}
+.loginlabel {
+  margin-top: 7px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #b7a690;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-weight: 400;
+  color: rgb(195, 195, 195);
+  font-size: 18px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-weight: 600;
+  color: rgb(195, 195, 195);
+  line-height: 1.1;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-weight: 600;
+  color: rgb(195, 195, 195);
+  line-height: 1.1;
+}
+.bordered {
+  border: 2px solid #888888;
+}
+.btn {
+  display: block;
+  margin: auto auto 10px auto;
+  width: 114px;
+  height: 45px;
+  border: 0;
+  background: #feb161;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.fpass {
+  color: #0000ee;
+}
+.pager {
+  padding-left: 0;
+  margin: 20px 0;
+  text-align: center;
+  list-style: none;
+}
+.pager li,
+.pager li a {
+  display: inline;
+  font-size: 12px;
+  color: #046aaf;
+}
+.buglink {
+  text-align: center;
+  color: #f00;
+  margin: -1em 0 2em;
+}
+.buglink a {
+  color: #f00 !important;
+}
+.bottom p {
+  font-size: 12px;
+  line-height: 10px;
+  color: #046aaf;
+}
+
+@media screen and (max-width: 600px) {
+  .main_img {
+    width: 47%;
+  }
+}
+
+.em-mn-dv {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cap_wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 4px;
+  max-width: 90%;
+  margin: 8px auto;
+}
+.captcha_image {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  float: left;
+  position: relative;
+  padding: 2px 2px;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+.captcha_image img {
+  width: 100%;
+  height: 100%;
+  max-height: 36px;
+  border-radius: 2px;
+}
+.replyCaptchaReloadButton {
+  display: inline-block;
+}
+.form-group {
+  padding: 0 14px;
+}
+
+.get-scammed-banner {
+  background-image: url(https://res.cloudinary.com/dj86ouq8b/image/upload/v1709826279/mnew/bannersContainer_xrnl7j.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  color: #000;
+  cursor: pointer;
+  height: 150px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.get-scammed-banner .caption {
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding-top: 19px;
+}
+.get-scammed-banner .body {
+  display: flex;
+  justify-content: space-around;
+}
+.get-scammed-banner .body div:nth-child(1) {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.get-scammed-banner .body div:nth-child(2) {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 44px;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 540px) {
+  .main_img {
+    width: 80%;
+    padding: 0 40px;
+  }
+  .captcha-box {
+    width: 100%;
+  }
+}
+
+
+.loader {
+  position: absolute;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%,-40%);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

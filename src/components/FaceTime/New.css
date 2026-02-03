@@ -1,0 +1,100 @@
+/* Container Styling */
+.facetime-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Content Wrapper */
+  .facetime-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .facetime-logo img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+  }
+  
+  /* Title */
+  .facetime-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  /* Description */
+  .facetime-description {
+    font-size: 0.875rem;
+    color: #cccccc;
+    margin-bottom: 24px;
+  }
+  
+  /* Input Field */
+  .facetime-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .facetime-input::placeholder {
+    color: #aaaaaa;
+  }
+  
+  /* Button */
+  .facetime-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555555;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .facetime-button:hover {
+    background-color: #444444;
+  }
+  
+  /* Footer Links */
+  .facetime-footer {
+    font-size: 0.75rem;
+    color: #777777;
+    margin-top: 24px;
+  }
+  
+  .facetime-footer a {
+    color: #777777;
+    text-decoration: none;
+    margin: 0 4px;
+  }
+  
+  .facetime-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Copyright */
+  .facetime-copyright {
+    font-size: 0.75rem;
+    color: #777777;
+    margin-top: 8px;
+  }
+  

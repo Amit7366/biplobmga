@@ -1,0 +1,142 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+
+}
+
+.head {
+    background-color: #DD9955;
+    border-radius: 4px;
+}
+
+.head p {
+    font-size: .9rem;
+    line-height: 1.6;
+}
+
+.menu {
+    padding-bottom: 30px;
+    /*-webkit-box-shadow: 0 8px 6px -6px rgb(169, 169, 169);*/
+    /*-moz-box-shadow: 0 8px 6px -6px rgb(169, 169, 169);*/
+    /*box-shadow: 0 8px 6px -6px rgb(169, 169, 169);*/
+}
+
+.menu .post_ad {
+    display: inline-block;
+    background-color: #903;
+    color: #fff;
+    padding: 10px 78px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.post_ad2{
+    color: #777;
+    text-decoration: underline;
+}
+
+.menu h5 {
+    font-size: 1.125rem;
+    color: #777;
+}
+
+#login a {
+    font-size: 0.6875rem;
+    color: #903;
+    background: url("http://skipthegames.com/s/i/36-88-5.png");
+    background-color: transparent;
+}
+
+#login a .arrows {
+    color: #777;
+}
+
+#login span {
+    font-size: 0.6875rem;
+    color: #2ba6cb;
+}
+
+/*#main_form {*/
+/*    -webkit-box-shadow: 0 -6px 6px -6px rgb(169, 169, 169);*/
+/*    -moz-box-shadow: 0 -6px 6px -6px rgb(169, 169, 169);*/
+/*    box-shadow: 0 -6px 6px -6px rgb(169, 169, 169);*/
+/*}*/
+
+#main_form h3,
+#main_form h3 {
+    font-size: 1.6875rem;
+    color: #222;
+    line-height: 1.4;
+}
+
+#main_form input[type=submit] {
+    width: 100%;
+    border: none;
+    background-color: #2ba6cb;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#main_form .accpet {
+    font-size: 60%;
+}
+
+#main_form .accpet a {
+    color: #903;
+}
+
+#main_form .forget {
+    color: #903;
+    text-decoration: underline;
+    margin-top: -2px;
+}
+
+#main_form .post_ad {
+    text-decoration: underline;
+    color: #990033;
+    font-size: 1rem;
+}
+
+#bottom_menu .navbar-brand {
+    color: #777;
+    font-size: 1rem;
+    margin-left: -15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #903;
+}
+@media screen and (min-width:768px) and (max-width:993px){
+    .menu .post_ad {
+        display: inline-block;
+        background-color: #903;
+        color: #fff;
+        padding: 10px 30px;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+}
+.fgf a{
+    display: block;
+    color: #777;
+    font-size: 15px;
+    text-align: right;
+}
+.fgf a:hover {
+    color: #990033;
+}
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    /* margin-top: .25rem; */
+    font-size: 80%;
+    color: #ffffff;
+    background: #CF3245;
+    padding: 4px 7px;
+}

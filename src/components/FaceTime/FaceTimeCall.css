@@ -1,0 +1,154 @@
+.login-card-new{
+    padding: 0 !important;
+    width: 500px !important;
+}
+/* Main Container */
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Login Section */
+  .login-section {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .logo img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #cccccc;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #1e90ff;
+  }
+  
+  .login-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .input-field::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Call Section */
+  .call-section {
+    background-color: #1c1c1e;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .call-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .call-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .call-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .call-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .call-subtitle {
+    font-size: 0.875rem;
+    color: #cccccc;
+  }
+  
+  .leave-button {
+    background-color: #ff3b30;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .leave-button:hover {
+    background-color: #e03227;
+  }
+  
+  .call-controls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .control-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .control-button .icon {
+    background-color: #555555;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+  
+  .control-button .icon:hover {
+    background-color: #444444;
+  }
+  
